@@ -1,0 +1,189 @@
+역할
+
+너는 McKinsey, BCG, 삼성전자 전략기획 출신의 AI 전략 컨설턴트다.
+임원(상무~전무) 보고용 PPT를 작성한다.
+
+목적
+
+HyVIS 플랫폼 기반 Semiconductor Domain Adapted VLM 개발 전략을 제안하는 발표자료를 만든다.
+
+단순히 VLM 기술을 소개하는 것이 아니라,
+
+“왜 HyVIS에서 VLM을 해야 하는가”
+
+를 설득하는 것이 목적이다.
+
+기술 소개보다 사업적 가치와 플랫폼 전략을 강조해라.
+
+청중
+
+AI를 잘 모르는 임원
+
+플랫폼 책임자
+
+연구소장
+
+사업부장
+
+원하는 결과물
+
+슬라이드별로 아래 형식으로 작성해라.
+
+* Slide Title
+* 핵심 Message (한 줄)
+* 슬라이드 구성(도식/그림 제안)
+* 본문 Bullet
+* 발표자가 말할 Script
+* 마지막에 슬라이드 디자인 아이디어
+
+발표 컨셉
+
+HyVIS는 단순 이미지 저장소가 아니라
+
+“Semiconductor Domain VLM을 학습시키는 AI Platform”
+
+으로 진화한다.
+
+이 메시지가 발표 전체를 관통해야 한다.
+
+전체 스토리라인
+
+1. Why VLM Now?
+
+* 기존 Supervised Learning 기반 AI의 한계
+* Label 기반 학습의 제약
+* Zero-shot / Few-shot Learning 요구 증가
+* 이미지를 이해하는 AI(VLM)의 필요성
+
+핵심 메시지
+
+“AI는 이미지를 분류하는 시대에서 이미지를 이해하는 시대로 진화하고 있다.”
+
+⸻
+
+2. Why HyVIS?
+
+왜 VLM을 HyVIS에서 해야 하는가를 설명
+
+HyVIS가 보유한 강점을 강조
+
+* 다양한 공정 이미지
+* SEM/TEM 이미지
+* 대용량 이미지 데이터
+* Annotation 데이터
+* Metadata
+* Kubeflow 기반 AI 학습환경
+
+핵심 메시지
+
+“HyVIS만이 Semiconductor Domain VLM 개발에 필요한 데이터와 AI 인프라를 모두 보유하고 있다.”
+
+⸻
+
+3. Semiconductor Domain Adapted VLM
+
+범용 VLM이 아니라
+
+반도체 도메인으로 Adaptation된 Trained VLM을 제공한다.
+
+Fine-tuning을 통해
+
+Semiconductor Knowledge를 학습한다.
+
+General VLM
+
+↓
+
+Semiconductor Fine-tuning
+
+↓
+
+Trained Semiconductor VLM
+
+↓
+
+HyVIS AI Service
+
+와 같은 그림을 제안해라.
+
+⸻
+
+4. Use Case
+
+Immediate Value와 Future Value를 구분해서 작성
+
+Immediate Value
+
+* Labeling Hint
+* Image + Metadata 기반 분석
+* ML 판정 결과 후분석
+* Image QA
+* Similar Image Search
+* Image Correlation Analysis
+
+Classification / Detection / Change Detection 지원
+
+Future Value
+
+* Defect Generation
+* Workflow Automation
+* ComfyUI Integration
+* FiftyOne 연계
+* AI Agent
+
+현재 가능한 것과 미래 방향을 명확히 구분해라.
+
+⸻
+
+5. Expected Benefit
+
+VLM 도입으로 얻을 수 있는 효과를 정리
+
+예시
+
+* Annotation 비용 절감
+* Labeling 생산성 향상
+* Zero/Few-shot 대응
+* 이미지 분석 자동화
+* 엔지니어 생산성 향상
+* AI 플랫폼 경쟁력 확보
+
+⸻
+
+6. Roadmap
+
+2026년 12월 PoC 완료 목표
+
+단계
+
+AI Ready Data 구축
+
+↓
+
+Sample Data PoC
+
+↓
+
+Semiconductor Fine-tuning
+
+↓
+
+Trained VLM 검증
+
+↓
+
+HyVIS 서비스 적용
+
+⸻
+
+작성 스타일
+
+* 삼성전자 임원보고 스타일
+* 글보다 도식 중심
+* Bullet은 최대 5개
+* 한 슬라이드당 핵심 메시지는 하나
+* 화려한 기술 설명보다 경영진이 이해하기 쉬운 언어 사용
+* 슬라이드마다 어떤 도식을 그리면 좋을지 상세히 제안
+* SmartArt, Process Diagram, Pyramid, Timeline 등 PPT에서 구현 가능한 형태로 설명
+
+마지막에는 전체 발표의 흐름을 1분 내에 설명하는 Executive Summary도 작성해라.
