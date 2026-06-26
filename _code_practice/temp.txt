@@ -1,32 +1,16 @@
-위에서 설계한 와이어프레임을 기반으로 실제 PowerPoint 한 장을 구성해줘.
+             Semiconductor Domain VLM
 
-중요한 것은 새로운 내용을 추가하는 것이 아니라 와이어프레임을 그대로 PPT 형태로 구체화하는 것이다.
+                       │
 
-다음 형식으로 작성해줘.
+ ┌────────────┬────────────┬────────────┬────────────┐
+ │            │            │            │
+ ▼            ▼            ▼            ▼
 
-1. 슬라이드 제목
+AI 개발     분석        AI 활용      AI Platform
+생산성↑     생산성↑     범위 확대     고도화
 
-2. 좌측 영역
-- 들어갈 박스
-- 각 박스의 문구
-- 아이콘 제안
-
-3. 우측 영역
-- Flow Diagram
-- 박스 문구
-- 화살표 방향
-
-4. 하단 Roadmap
-
-5. 색상 강조 포인트
-
-6. 아이콘 추천
-
-7. SmartArt 또는 도형으로 구현하는 방법
-
-8. PPT에서 실제 배치 순서
-
-절대로 새로운 슬라이드 구조를 만들지 말고,
-와이어프레임을 그대로 PowerPoint로 옮긴다는 생각으로 작성해줘.
-
-텍스트는 최소화하고, 임원보고 스타일로 구성해줘.
+ │            │            │            │
+ │            │            │            │
+Labeling     Image QA     Meta+Image   Trained VLM
+Workflow     Similar Img  Classification FiftyOne
+Generation   ML 후분석    Detection    ComfyUI
